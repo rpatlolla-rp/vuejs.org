@@ -331,7 +331,7 @@ When Vue processes directives, `v-for` has a higher priority than `v-if`, so tha
     :key="user.id"
   >
     {{ user.name }}
-  <li>
+  </li>
 </ul>
 ```
 
@@ -366,7 +366,7 @@ computed: {
     :key="user.id"
   >
     {{ user.name }}
-  <li>
+  </li>
 </ul>
 ```
 
@@ -430,7 +430,7 @@ By moving the `v-if` to a container element, we're no longer checking `shouldSho
     :key="user.id"
   >
     {{ user.name }}
-  <li>
+  </li>
 </ul>
 ```
 {% raw %}</div>{% endraw %}
@@ -456,7 +456,7 @@ By moving the `v-if` to a container element, we're no longer checking `shouldSho
     :key="user.id"
   >
     {{ user.name }}
-  <li>
+  </li>
 </ul>
 ```
 {% raw %}</div>{% endraw %}
